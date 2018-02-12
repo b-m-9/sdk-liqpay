@@ -7,6 +7,8 @@ require module
 const Liqpay = require('sdk-liqpay');
 ```
 ## Merchant Documentation:
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-liqpay.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-liqpay?ref=badge_shield)
+
 Init
 ```javascript
 const liqpayMerchant = new Liqpay.merchant('i37338111051', 'Secret', {debug: false});
@@ -55,3 +57,6 @@ function payment(param) {
 ```
 
 ## Donate: https://www.liqpay.ua/ru/checkout/i37338111051
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-liqpay.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-liqpay?ref=badge_large)
